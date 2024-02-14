@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { useSession, signOut } from 'next-auth/react'
 import useGoogleIdentify from '../hooks/useGoogleIdentify'
+import Link from "next/link";
 
 export default function Home() {
   const {data: session} = useSession()
@@ -49,9 +50,9 @@ export default function Home() {
             <button style={{marginTop: '60px', display: 'block'}} onClick={() => signOut()}>Logout</button>
           </div>
         ) : (
-          <a href='/login'>
+          <Link href='/login'>
             <button style={{marginTop: '60px'}}>Login</button>
-          </a>
+          </Link>
         )}
 
         <p className={styles.description}>
