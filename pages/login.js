@@ -32,7 +32,7 @@ const LoginPage = () => {
                     data-size='large'
                     data-theme='outline'
                     data-text='sign_in_with'
-                    data-shape='pill'
+                    data-shape='rectangular'
                     data-locale='id'
                     data-logo_alignment='left'
                 />
