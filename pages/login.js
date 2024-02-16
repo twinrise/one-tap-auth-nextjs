@@ -31,7 +31,7 @@ const LoginPage = () => {
                     data-type='standard'
                     data-size='medium'
                     data-theme='outline'
-                    data-text='continue_with'
+                    data-text='sign_in_with'
                     data-shape='pill'
                     data-locale='id'
                     data-logo_alignment='left'
